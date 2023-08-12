@@ -5,20 +5,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <p>Peacematha SofTech (PTY) LTD website is still under construction and comming soon!</p>
+
+        <img style={{ width: 250, height: 200 ,paddingBottom:50}} src={require('./images/PEACEMATHA_SOFTECH_Logo.jpg')} alt="React Logo" />
+        <img style={{ width: 150, height: 150, paddingup:150 }} src={logo} className="App-logo" alt="logo" />
+        <h9>(2023/924131/07)</h9>
       </header>
+    
     </div>
+    
   );
 }
 
