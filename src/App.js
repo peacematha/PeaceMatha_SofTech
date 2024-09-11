@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <img style={{ width: 570, height: 870}} src={require('./images/Lobola_Invitation.jpg')} alt="logo" />
+        <img style={{ width: 570, height: 850}} src={require('./images/Lobola_Invitation.jpg')} alt="logo" />
         <img style={{ width: 0, height: 0 }} src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
