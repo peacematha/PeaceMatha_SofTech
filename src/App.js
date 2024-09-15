@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
      <main>
-      <img style={{ width: 385, height: 490}} src={require('./images/FinalCard.png')} alt="logo" />
+      <img style={{ width: 390, height: 490}} src={require('./images/FinalCard.png')} alt="logo" />
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
         <h5 style={{color:'white',fontFamily: 'Chilanka'}} >
         <i> <a style={{color:'White',fontFamily: 'Chilanka'}}href="https://maps.google.com/?q=-25.692223,31.801546">Click here for the location</a> 
