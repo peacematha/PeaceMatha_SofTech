@@ -27,8 +27,13 @@ function App() {
         </h5>
       </Popup>
     </main>
-     <button onClick={()=> setButtonPopup(true)}>Click for more Information</button>
+    <div class="row">
+    <div class="col-xl-12">
+     <button style={{ width: 100, height:16}}  className="button-63" onClick={()=> setButtonPopup(true)}>Click for more Information</button>
     </div>
+    </div>
+
+</div>
   );
 }
 
