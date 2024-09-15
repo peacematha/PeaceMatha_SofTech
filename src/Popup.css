@@ -2,7 +2,7 @@
     position: absolute;
     top: 50;
     right: 50;
-    width: 340px;
+    width: 500px;
     height: 270px;
     background-color: rgb(3, 41, 3);
     background-image: url("././images/popup_7.jpg"); 
@@ -14,7 +14,7 @@
 .popup-inner{
     position: absolute;
     padding: 35px;
-    width: 300px;
+    width: 450px;
     max-width: 500px;
     /* background-color: rgba(112, 115, 85, 0.342); */
     top: 10px;
