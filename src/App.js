@@ -16,6 +16,7 @@
 
 // export default App;
 
+import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import Popup from './Popup';
@@ -26,7 +27,7 @@ function App() {
   return (
     <div className="App">
      <main>
-      <img style={{ width: 570, height: 770}} src={require('./images/FinalCard.png')} alt="logo" />
+      <img style={{ width: 390, height: 490}} src={require('./images/FinalCard.png')} alt="logo" />
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
         <h5 style={{color:'white',fontFamily: 'Chilanka'}} >
         <i> <a style={{color:'White',fontFamily: 'Chilanka'}}href="https://maps.google.com/?q=-25.692223,31.801546">Click here for the location</a> 
@@ -49,6 +50,9 @@ function App() {
     </div>
   );
 }
+
+ 
+export default App;
 
  
 export default App;
