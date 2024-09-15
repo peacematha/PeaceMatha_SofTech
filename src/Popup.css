@@ -1,22 +1,19 @@
 .popup{
     position: absolute;
-    top: 50;
-    right: 50;
-    width: 500px;
+    width: 386px;
     height: 270px;
     background-color: rgb(3, 41, 3);
-    background-image: url("././images/popup_7.jpg"); 
-    display: ce;
+    background-image: url("././images/popup_77.jpg"); 
+    display: block;
     justify-content: center;
     align-items: center;
 }
 
 .popup-inner{
     position: absolute;
-    padding: 35px;
-    width: 450px;
-    max-width: 500px;
-    /* background-color: rgba(112, 115, 85, 0.342); */
+    padding: 30px;
+    width: 350px;
+    max-width: 390px;
     top: 10px;
     left: 1px;
 }
@@ -24,11 +21,11 @@
 .popup-inner .close-btn{
     position: absolute; 
     top:  1px;
-    left: 220px;
+    left: 270px;
 
 }
 .style_1{ 
     position: absolute; 
-    width: 570;
-    height: 770;
+    width: 390px;
+    height: 270px;
 }
