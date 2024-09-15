@@ -16,7 +16,6 @@
 
 // export default App;
 
-import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import Popup from './Popup';
