@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(18, 15, 15);
 }
 
 .App-link {
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* CSS */
+.button-63 {
+  background-image: linear-gradient(144deg,#d81778, #d8e34594 50%,#eb6530);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(3, 62, 12, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #020e02c8;
+  display: flexbox;
+  font-family: Phantomsans, sans-serif;
+  font-size: 11px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 500px) {
+  .button-63 {
+    font-size: 10px;
+    min-width: 150px;
+  }
+}
+
+.button-63-1{
+  text-align: center;
+
 }
