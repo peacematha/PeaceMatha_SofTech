@@ -19,7 +19,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import Popup from './components/Popup';
+import Popup from './Popup';
 
 function App() {
   const [buttonPopup, setButtonPopup]= useState(false);
