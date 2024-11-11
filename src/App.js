@@ -14,6 +14,7 @@ function App() {
         <i> <a style={{color:'White',fontFamily: 'Chilanka'}}href="https://maps.google.com/?q=-25.692223,31.801546">Click here for the location</a> 
         <br></br>
         <br></br> 
+          <i> <a style={{color:'White',fontFamily: 'Chilanka'}}href="https://maps.google.com/?q=-25.692223,31.801546">Click here for the location</a> 
         <br></br>
         <br></br> 
         <br></br>
